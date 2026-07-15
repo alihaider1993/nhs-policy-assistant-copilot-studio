@@ -140,7 +140,7 @@ Full gallery in [`screenshots/`](screenshots/):
 
 ## Related
 
-- **Pro-code version:** [NHS Policy Assistant — Azure OpenAI + AI Search + Streamlit](../README.md)
+- **Pro-code version:** [NHS Policy Assistant — Azure OpenAI + AI Search + Streamlit](https://github.com/alihaider1993/nhs-policy-assistant)
 - Part of my Azure AI engineering portfolio: [github.com/alihaider1993](https://github.com/alihaider1993)
 
 ## Author

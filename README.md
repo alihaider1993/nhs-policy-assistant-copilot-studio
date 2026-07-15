@@ -1,6 +1,6 @@
 # NHS Policy Assistant — Copilot Studio Edition (Low-Code Rebuild)
 
-I rebuilt my [NHS Policy Assistant](https://github.com/alihaider1993/nhs-policy-assistant) — originally a pro-code RAG application using Azure OpenAI, Azure AI Search, and Streamlit — as a **low-code agent in Microsoft Copilot Studio**, deployed to **Microsoft Teams**.
+I rebuilt my [NHS Policy Assistant](https://github.com/alihaider1993/nhs-policy-assistant) — originally a pro-code RAG application using Azure OpenAI, Azure AI Search, and Streamlit — as a **low-code AI agent in Microsoft Copilot Studio**, deployed to **Microsoft Teams**.
 
 Same use case. Same NHS policy documents. Two completely different build approaches.
 
@@ -17,6 +17,57 @@ The goal: understand first-hand when a consultant should recommend Copilot Studi
 *The assistant running natively inside Microsoft Teams, with a custom greeting and quick-reply conversation starters.*
 
 ---
+
+# Business Problem
+
+NHS organisations maintain extensive HR and employment policy
+documentation covering:
+
+-   Annual leave
+-   Sick leave
+-   Maternity and paternity entitlements
+-   Grievance procedures
+-   Whistleblowing
+-   Flexible working
+-   Employment conditions
+
+Finding accurate answers often requires staff to manually search lengthy PDF documents or contact HR departments.
+
+This project provides a conversational interface over official NHS policy documents while ensuring answers remain grounded in approved source material.
+
+---
+
+ Architecture
+
+## Copilot Studio Architecture
+
+``` text
+User
+ ↓
+Microsoft Teams
+ ↓
+Copilot Studio Agent
+ ↓
+Knowledge Sources
+ ↓
+NHS Policy Documents
+```
+
+## Technology Stack
+
+  Component          Technology
+  ------------------ ---------------------------
+  AI Platform        Microsoft Copilot Studio
+  Model              GPT-5.5 Chat
+  Authentication     Microsoft Entra ID
+  Delivery Channel   Microsoft Teams
+  Knowledge Store    NHS Policy PDFs
+  Evaluation         Copilot Studio Evaluation
+
+------------------------------------------------------------------------
+
+---
+
 
 ## What It Does
 

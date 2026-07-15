@@ -1,6 +1,6 @@
 # NHS Policy Assistant — Copilot Studio Edition (Low-Code Rebuild)
 
-I rebuilt my [NHS Policy Assistant]((https://github.com/alihaider1993/nhs-policy-assistant)) — originally a pro-code RAG application using Azure OpenAI, Azure AI Search, and Streamlit — as a **low-code agent in Microsoft Copilot Studio**, deployed to **Microsoft Teams**.
+I rebuilt my [NHS Policy Assistant](https://github.com/alihaider1993/nhs-policy-assistant) — originally a pro-code RAG application using Azure OpenAI, Azure AI Search, and Streamlit — as a **low-code agent in Microsoft Copilot Studio**, deployed to **Microsoft Teams**.
 
 Same use case. Same NHS policy documents. Two completely different build approaches.
 

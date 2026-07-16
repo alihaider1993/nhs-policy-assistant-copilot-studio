@@ -16,7 +16,9 @@ Same use case. Same NHS policy documents. Two completely different build approac
 
 ## 🎥 Demo
 
-(https://www.loom.com/share/9c74b463a2d048f6b5e589e506ebb262)
+[▶ Click to watch Demo on Loom](https://www.loom.com/share/9c74b463a2d048f6b5e589e506ebb262)
+
+---
 
 ![Agent deployed in Microsoft Teams](screenshots/01-teams-deployment-greeting-quick-replies.png)
 
